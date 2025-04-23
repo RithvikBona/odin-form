@@ -1,0 +1,121 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.logobox {
+    background: border-box url("images/lighthouse.jpg") center/300%;
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    background-color: black;
+    opacity: 0.6;
+    width: 100%;
+    text-align: center;
+    height: 75px;
+    font-size: 40px;
+    color:antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentbox {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    padding: 25px;
+}
+
+.intro {
+    height: 30vh;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    line-height: 30px;
+    gap: 10px;
+}
+
+.signup-form-box {
+    padding: 10px;
+    width: 100vh;
+    height: 70vh;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vh;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.input-box > fieldset {
+    border: 0 none;
+    width: 100vh;
+    display: flex;
+    gap: 25px;
+}
+
+.fieldbox {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+button {
+    padding: 5px;
+    width: 130px;
+    border: none;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: #596D48;
+    border-color: #596D48;
+    color: beige;
+}
+
+button:hover {
+    color: #596D48;
+    background-color: beige;
+}
+
+.intro > p {
+    font-size: 18px;
+}
+
+input {
+    border: 1px solid;
+  }
+
+:invalid {
+    border-color: red;
+}
+
+.submit-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
